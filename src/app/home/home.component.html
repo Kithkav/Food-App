@@ -1,0 +1,8 @@
+<ul class="image-list">
+  <li *ngFor="let imagePath of imagePaths">
+    <a [href]="imagePath.name === 'Pizza' ? '/blank' : '/image/' + imagePath.name" [target]="imagePath.name === 'Pizza' ? '_blank' : ''">
+      <img [src]="imagePath.path" alt="Image">
+      <p>{{ imagePath.name }}</p>
+    </a>
+  </li>
+</ul>

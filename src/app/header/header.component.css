@@ -1,0 +1,28 @@
+header{
+    background-color: rgb(244, 194, 138);
+    border-bottom: 2px solid red;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+a:hover{
+    background-color: rgb(216, 30, 30);
+    color: white;
+}
+.shopName{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.cart{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.red-text{
+    color:brown;
+}
